@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Collections from "./pages/Collections";
+import Footer from "./components/Footer";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/placeorder" element={<PlaceOrder />} />
         <Route path="orders" element={<Orders />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
